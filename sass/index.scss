@@ -1,0 +1,35 @@
+.white{
+    background: #fff;
+    padding: 0px 20px;
+}
+.banner{
+    border: 1px solid #eee;
+    margin: 20px 0;
+    position: relative;
+    .content {
+        position: relative;
+        z-index: 2;
+    padding: 40px;
+        
+    }
+    &_image{
+        height: 200px;
+        width: 500px;
+        float: right;
+    }
+}
+.left{
+    float: left;
+}
+.triangle{
+    width: 400px;
+    height: 200px;
+    float: left;
+    background: #fff;
+    transform: skew(-40deg);
+    z-index: 1;position: absolute;
+    right: 35%;
+}
+.clear{
+    clear: both;
+}

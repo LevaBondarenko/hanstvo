@@ -1,0 +1,55 @@
+.header{
+	width: 100%;
+	background:  #fff;
+	padding: 10px;
+	border: 1px solid #ddd;
+	&__logo{
+		float: left;
+	}
+	&__nav{
+		float: left;
+		li{
+			display: inline-block;
+			padding: 10px;
+			&:first-child{
+				padding-left: 0;
+			}
+			&:last-child{
+				padding-right: 0;
+			}
+			a{
+				display: block;
+			}
+		}
+	}
+	form{
+		width: 200px;
+		float: right;
+		margin: 10px 0;
+		position: relative;
+		button{
+			top: 5px;
+		right: 10px;
+		position: absolute;
+		border: none;
+		background: transparent;
+		transition: all .3s ease-in-out;
+		&:hover{
+			transform: rotate(15deg);
+		}
+		}
+		i{
+		font-size: 1.7em;
+		color: black;
+		
+
+	}
+	}
+}
+.logo{
+	margin: 0 20px;
+	img{
+	width: 150px;
+		
+	}
+}

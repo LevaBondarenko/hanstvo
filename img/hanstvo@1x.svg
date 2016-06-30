@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="204" height="50" viewBox="0 0 204 50">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 72px;
+        fill: #020202;
+        text-anchor: middle;
+        font-family: JOURNALISM;
+        text-transform: uppercase;
+      }
+    </style>
+  </defs>
+  <text id="hanstvo" class="cls-1" x="-91" y="-0.208"><tspan x="-91">hanstvo</tspan></text>
+</svg>
