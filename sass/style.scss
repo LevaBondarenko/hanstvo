@@ -2,9 +2,14 @@
 	font-family: "Journalism";
 	src: url('font/journalism2.ttf');
 }
+@font-face {
+	font-family:'NeoSans';
+	src:url('font/NeoSansW1G-Regular.otf');
+}
 html,body{
 	height: 100%;
 	background: #eee;
+	font-family:'NeoSans';
 }
 h2{
 	font: 600 2.7em "Journalism";
@@ -12,16 +17,20 @@ h2{
 }
 .container{
 	width: 1200px;
-	height: 100%;
+	height: auto;
+	overflow: auto;
 }
 a{
 	color:black;
 	font: 600 1.2em "Journalism";
 	letter-spacing: 2px;
+	transition: all .3s ease-in-out;
+	&:hover{
+		color: black;
+	}
 }
 .form-control{
 	border-radius: 0;
-	
 }
 
 @import 'header.scss';
